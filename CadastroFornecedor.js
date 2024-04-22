@@ -8,7 +8,6 @@ const CadastroFornecedor = () => {
   const [categoria, setCategoria] = useState('');
 
   const handleSubmit = () => {
-    // Aqui você pode adicionar a lógica para enviar os dados do fornecedor para o servidor ou armazená-los localmente.
     console.log('Dados do fornecedor:', { nome, endereco, contato, categoria });
   };
 

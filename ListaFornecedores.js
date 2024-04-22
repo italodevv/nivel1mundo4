@@ -6,14 +6,13 @@ import CadastroFornecedor from './CadastroFornecedor'; // Importe o componente C
 const ListaFornecedores = () => {
   const [fornecedores, setFornecedores] = useState([]);
 
-  // Função para adicionar um fornecedor à lista
   const adicionarFornecedor = (fornecedor) => {
     setFornecedores([...fornecedores, fornecedor]);
   };
 
   return (
     <View>
-      {/* Renderize o componente CadastroFornecedor */}
+      {}
       <CadastroFornecedor adicionarFornecedor={adicionarFornecedor} />
       <Text>Lista de Fornecedores:</Text>
       <FlatList
